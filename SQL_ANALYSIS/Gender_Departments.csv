@@ -1,0 +1,38 @@
+﻿Accounting;Male;1554
+Accounting;Female;1344
+Accounting;Non-Conforming;79
+Auditing;Male;22
+Auditing;Female;22
+Business Development;Non-Conforming;46
+Business Development;Female;686
+Business Development;Male;758
+Engineering;Non-Conforming;172
+Engineering;Female;2779
+Engineering;Male;3018
+Human Resources;Female;765
+Human Resources;Non-Conforming;40
+Human Resources;Male;804
+Legal;Non-Conforming;8
+Legal;Male;144
+Legal;Female;122
+Marketing;Non-Conforming;5
+Marketing;Male;225
+Marketing;Female;220
+Product Management;Non-Conforming;14
+Product Management;Female;254
+Product Management;Male;306
+Research and Development;Male;467
+Research and Development;Female;464
+Research and Development;Non-Conforming;33
+Sales;Male;848
+Sales;Non-Conforming;44
+Sales;Female;745
+Services;Non-Conforming;32
+Services;Female;725
+Services;Male;752
+Support;Female;391
+Support;Non-Conforming;32
+Support;Male;433
+Training;Male;773
+Training;Non-Conforming;40
+Training;Female;688
