@@ -1,5 +1,4 @@
 <h1 align="center">HR-Dashboard</h1>
-<img src="https://github.com/Alerodrigues11/HR-Dashboard/blob/main/IMG/Dashboard-part1.png">
 
 ## Steps
 SQL Server - Used for Data Analysis and Data Cleaning
