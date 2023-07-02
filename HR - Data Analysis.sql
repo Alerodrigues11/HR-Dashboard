@@ -1,21 +1,21 @@
-/* QUESTIONS */
+/* Perguntas */
 
 SELECT * FROM HR
 
--- 1 What is the gender breakdown of employees in the company?
+-- 1 Qual é a divisão por gênero dos funcionários da empresa?
 SELECT gender, COUNT(*) AS QUANTITY 
 FROM HR
 WHERE termdate IS NULL OR termdate > GETDATE()
 GROUP BY gender
 
--- 2 What is the race/ethnicity breakdown of employees in the company?
+-- 2 Qual é a divisão racial/etnia dos funcionários da empresa?
 SELECT race, COUNT(*) AS QUANTITY 
 FROM HR
 WHERE termdate IS NULL OR termdate > GETDATE()
 GROUP BY race
 ORDER BY COUNT(*) DESC
 
--- 3 What is the age distribution of employees in the company?
+-- 3 Qual é a distribuição etária dos funcionários da empresa?
 SELECT 
 	CASE
 		WHEN AGE >= 18 AND AGE <= 24 THEN '18-24'
@@ -43,32 +43,25 @@ ORDER BY
 		ELSE '59+'
 	END, GENDER
 
--- 4 How many employees work at headquarters versus remote locations?
+-- 4 Quantos funcionários trabalham na sede x locais remotos?
 SELECT location, COUNT(*) AS QUANTITY
 FROM HR
 WHERE termdate IS NULL OR termdate > GETDATE()
 GROUP BY location
 
--- 5 What is the average length of employment for employees who have been terminated?
+-- 5 Tempo Médio de Emprego para Funcionários Rescindidos
 SELECT AVG(DATEDIFF(YEAR, hire_date, termdate)) AS AVERAGE_LENGTH_YEARS
 FROM HR
 WHERE termdate <= GETDATE() AND termdate IS NOT NULL  
 
--- 6 How does the gender distribution vary across departments?
+-- 6 Como a distribuição de gênero varia entre os departamentos?
 SELECT department, gender, COUNT(GENDER) AS QUANTITY
 FROM HR
 WHERE termdate IS NULL OR termdate > GETDATE()
 GROUP BY department, gender
 ORDER BY department
 
--- 7 What is the distribution of job titles across the company?
-SELECT jobtitle, COUNT(*) AS QUANTITY
-FROM HR
-WHERE termdate IS NULL OR termdate > GETDATE()
-GROUP BY jobtitle
-ORDER BY jobtitle
-
--- 8 Which department has the highest turnover rate?
+-- 7 Qual departamento tem a maior taxa de rotatividade?
 SELECT department,
 	total_count,
 	terminated_count,
@@ -82,29 +75,28 @@ FROM (
 ) AS QUERY
 ORDER BY terminated_count/total_count DESC
 
--- 9 What is the distribution of employees across locations by state?
+-- 8 Qual é a distribuição dos funcionários entre as localidades por estado?
 SELECT location_state, COUNT(*) AS QUANTITY
 FROM HR
 WHERE termdate IS NULL OR termdate > GETDATE()
 GROUP BY location_state
 ORDER BY COUNT(*) DESC
 
--- 10 What is the amount of employees hired?
+-- 9 Qual a quantidade de funcionários contratados?
 SELECT COUNT(*) AS QUANTITY
 FROM HR
 
--- 11 How many employees were laid off?
+-- 10 Quantos funcionários foram desligados?
 SELECT COUNT(*) AS QUANTITY
 FROM HR
 WHERE termdate IS NOT NULL AND termdate <= GETDATE()
 
--- 12 How many employees are in the company?
-
+-- 11 Quantos funcionários estão na empresa?
 SELECT COUNT(*) AS QUANTITY
 FROM HR
 WHERE termdate IS NULL OR termdate > GETDATE()
 
--- 13 What is the overall turnover?
+-- 12 Taxa de rotatividade geral:
 
 SELECT	total_count,
 	terminated_count,
@@ -115,7 +107,7 @@ FROM (
 	FROM HR
 ) AS QUERY
 
--- 14 What is the percentage of retention over the years
+-- 13 Porcentagem de retenção de funcionários ao longo dos anos:
 SELECT year, hires, terminations, ROUND(CONVERT(FLOAT,hires)-CONVERT(FLOAT,terminations),2)/hires AS hires_terminations_percentage
 FROM (
 SELECT
