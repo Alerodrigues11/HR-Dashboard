@@ -1,66 +1,65 @@
-<h1 align="center">HR-Dashboard</h1>
+<h1 align="center">HR - Dashboard</h1>
 
-## Steps
-SQL Server - Used for Data Analysis and Data Cleaning
+## Etapas
+SQL Server - Usado para análise de dados e limpeza de dados
 
-POWER BI - Used for Data Visualization
+POWER BI - Usado para visualização de dados
 
-## Questions
+## Perguntas
 
-1. What is the gender breakdown of employees in the company?
-2. What is the race/ethnicity breakdown of employees in the company?
-3. What is the age distribution of employees in the company?
-4. How many employees work at headquarters versus remote locations?
-5. What is the average length of employment for terminated employees?
-6. How does the gender distribution vary across departments?
-7. Which department has the highest turnover rate?
-8. What is the distribution of employees across locations by state?
-9. How many employees were hired?
-10. How many employees were laid off?
-11. How many employees are in the company?
-12. What is the overall turnover rate?
-13. What is the percentage of employee retention over the years?
+1. Qual é a distribuição por gênero dos funcionários da empresa?
+2. Qual é a distribuição racial/etnia dos funcionários da empresa?
+3. Qual é a distribuição etária dos funcionários da empresa?
+4. Quantos funcionários trabalham na sede x locais remotos?
+5. Qual é a duração média do emprego para funcionários demitidos?
+6. Como a distribuição de gênero varia entre os departamentos?
+7. Qual departamento tem a maior taxa de rotatividade?
+8. Qual é a distribuição dos funcionários nas localidades por estado?
+9. Quantos funcionários foram contratados?
+10. Quantos funcionários foram demitidos?
+11. Quantos funcionários há na empresa?
+12. Qual é a taxa de rotatividade geral?
+13. Qual o percentual de retenção dos funcionários ao longo dos anos?
 
-## Summary
+## Resumo
 
-1. **Gender Diversity**:
-   - We have a significant number of non-conforming employees (545).
-   - The majority of employees are male (10,104), while the number of female employees is close (9,205).
+1. **Diversidade de gênero**:
+   - A maioria dos colaboradores é do sexo masculino (10.104), enquanto o número de colaboradores do sexo feminino é próximo (9.205).
 
-2. **Racial/Ethnic Diversity**:
-   - The company exhibits a diverse distribution of race/ethnicity among employees.
-   - The majority of employees are White (5,659), but we also have considerable representation of multiple races (3,258), Black or African American (3,238), Asian (3,181), Hispanic or Latino (2,251), American Indian or Alaska Native (1,185), and Native Hawaiian or Other Pacific Islander (1,082).
+2. **Diversidade racial/étnica**:
+   - A empresa apresenta uma distribuição diversificada de raça/etnia entre os funcionários.
+   - A maioria dos funcionários é branca (5.659), mas também temos uma representação considerável de várias raças (3.258), negros ou afro-americanos (3.238), asiáticos (3.181), hispânicos ou latinos (2.251), índios americanos ou nativos do Alasca ( 1.185) e nativos havaianos ou de outras ilhas do Pacífico (1.082).
 
-3. **Age Distribution**:
-   - The age group between 25 and 44 is the most represented in the company, both for female and male employees.
-   - The age groups of 18 to 24 and 45 to 58 also have a considerable number of employees.
+3. **Distribuição de idade**:
+   - A faixa etária entre 25 e 44 anos é a mais representada na empresa, tanto para colaboradores do sexo feminino quanto masculino.
+   - As faixas etárias de 18 a 24 e 45 a 58 anos também contam com um número considerável de colaboradores.
 
-4. **Work Locations**:
-   - The majority of employees work at company headquarters (14,907), while a significant portion work remotely (4,947).
+4. **Locais de Trabalho**:
+   - A maioria dos colaboradores trabalha na sede da empresa (14.907), enquanto uma parcela significativa trabalha remotamente (4.947).
 
-5. **Average Length of Employment for Terminated Employees**:
-   - Terminated employees had an average tenure of 7 years with the company.
+5. **Tempo Médio de Emprego para Funcionários Rescindidos**:
+   - Funcionários desligados tinham tempo médio de 7 anos de empresa.
 
-6. **Gender Distribution by Department**:
-   - The analysis of gender distribution by department revealed that the company has a balanced representation in some departments, while others have a male or female predominance.
+6. **Distribuição de gênero por departamento**:
+   - A análise da distribuição de gênero por departamento revelou que a empresa tem uma representação equilibrada em alguns departamentos, enquanto em outros há predominância masculina ou feminina.
 
-7. **Department with the Highest Turnover Rate**:
-   - The Audit department has the highest turnover rate among employees.
+7. **Departamento com a maior taxa de rotatividade**:
+   - O departamento de Auditoria tem o maior índice de rotatividade entre os funcionários.
 
-8. **Distribution of Employees by State**:
-   - The company has the highest concentration of employees in Ohio (16,082), followed by Pennsylvania (1,011), Illinois (785), Indiana (625), Michigan (608), Kentucky (400), and Wisconsin (343).
+8. **Distribuição de Funcionários por Estado**:
+   - A empresa tem a maior concentração de funcionários em Ohio (16.082), seguida pela Pensilvânia (1.011), Illinois (785), Indiana (625), Michigan (608), Kentucky (400) e Wisconsin (343).
 
-9. **Number of Hired Employees**:
-   - During the analyzed period, the company hired a total of 22,214 employees.
+9. **Número de Funcionários Contratados**:
+   - No período analisado, a empresa contratou um total de 22.214 funcionários.
 
-10. **Number of Laid-Off Employees**:
-    - The total number of laid-off employees was 2,360.
+10. **Número de funcionários demitidos**:
+    - O número total de trabalhadores desligados foi de 2.360.
 
-11. **Total Number of Employees in the Company**:
-    - Currently, the company has 19,854 employees.
+11. **Número Total de Funcionários da Empresa**:
+    - Atualmente, a empresa conta com 19.854 funcionários.
 
-12. **Overall Turnover Rate**:
-    - The company has an overall turnover rate of 10.62%, indicating a reasonable flow of employee turnover.
+12. **Taxa de rotatividade geral**:
+    - A empresa apresenta uma taxa de rotatividade geral de 10,62%, indicando um fluxo razoável de rotatividade de funcionários.
 
-13. **Percentage of Employee Retention Over the Years**:
-    - The analysis revealed that over the years, the company has maintained a high percentage of employee retention, ranging from 82% to 98% in different periods.
+13. **Porcentagem de retenção de funcionários ao longo dos anos**:
+    - A análise revelou que ao longo dos anos, a empresa manteve um alto percentual de retenção de funcionários, variando de 82% a 98% em diferentes períodos.
